@@ -1,0 +1,363 @@
+.main_header{
+    max-width: 2300px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.main_header .main_header_img{
+    margin-top: 40px;
+    text-align: center;
+    flex-basis: 50%;
+}
+
+.main_header_menu{
+    margin: 40px auto; 
+    text-align: center;
+    flex-basis: 50%;
+}
+
+.main_header .main_header_menu a img{
+    margin: 20px 0;
+}
+
+.main_header_menu_list{
+    background-color: #000000;
+    color: #FFF;
+    padding: 10px 100px 0 10px;
+    display: none;
+}
+
+/* Revisar depois para aparecer as navegações ao apertar  no icone*/
+/* .main_header_menu_list:target{
+    display: block;
+} */
+
+.main_header_menu_list li{
+    list-style: none;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.main_container_img{
+    background-image: url("https://www.jovenssarados.com/wp-content/uploads/2019/10/slide.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: -20px;
+}
+
+.main_cta{
+    max-width: 2300px;
+    margin-top: 60px;
+}
+
+.main_cta .main_cta_header{
+    color: #FFF;
+    text-align: center;
+}
+
+.main_cta .main_cta_header .main_cta_header_welcome{
+    font-size: 3em;
+    font-weight: 300;
+    margin: -20px auto;
+}
+
+.main_cta .main_cta_header .main_cta_header_js{
+    font-size: 3.5em;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.main_cta .main_cta_header .main_cta_header_paragraph{
+    font-size: 3em;
+    font-weight: 300;
+    padding-bottom: 10%;
+}
+
+/* DOBRA DAS 5 PEDRINHAS */
+
+.main_five_stone_background{
+    width: 100%;
+    background-color: #e5e5e5;
+}
+
+.main_five_stones{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1300px;
+    text-align: center;
+    padding: 100px 20px 0 20px; 
+}
+
+.main_five_stones .main_five_stones_header{
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    flex-basis: 100%;
+    margin-bottom: 40px;
+}
+
+.main_five_stones .main_five_stones_content{
+    flex-basis: calc(20% - 40px); 
+}
+
+.main_five_stones .main_five_stones_content .main_five_stones_content_img{
+    width: 50%;
+    box-shadow: 5px 5px 10px 5px #f6f6f6;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.main_five_stones .main_five_stones_content > header h2{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.main_five_stones .main_five_stones_content p{
+    color: rgb(141, 143, 146);
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+/* DOBRA YOUTUBE JS */
+
+.main_channel_youtube{
+    max-width: 1300px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.main_channel_youtube .main_channel_youtube_header{
+    flex-basis: 50%;
+}
+
+.main_channel_youtube .main_channel_youtube_header iframe{
+    width: 800px;
+    height: 500px;
+    margin: 0 20px;
+}
+
+.main_channel_youtube .main_channel_youtube_content{
+    flex-basis: 50%;
+}
+
+.main_channel_youtube .main_channel_youtube_content p{
+    margin-top: 20px;
+    color: rgb(141, 143, 146);
+    font-family: Lato;
+    margin-bottom: 40px
+}
+
+.main_channel_youtube .main_channel_youtube_content .btn_acessar{
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    color: #747474;;
+    font-size: 1.2em;
+}
+
+/* DOBRA FRASE DE EFEITO */
+
+.main_phrase{
+    background-image: url("https://www.jovenssarados.com/wp-content/uploads/2019/10/bgnos_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    background-size: cover; 
+    -webkit-background-size:cover;
+    padding-top: 180px; 
+    padding-bottom: 170px;
+}
+
+.main_phrase p{
+    font-size: 1.8em;
+    font-weight: 700;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    color: #7b7b81;
+}
+
+/* DOBRA DESTAQUES*/
+
+.main_highlights{
+    max-width: 1300px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main_highlights .main_highlights_header{
+    flex-basis: 100%;
+    margin-bottom: 50px;
+}
+
+.main_highlights .main_highlights_header h1{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.main_highlights .main_highlights_content{
+    flex-basis: 33%;
+}
+
+.main_highlights .main_highlights_content .main_highlights_content_img{
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.main_highlights .main_highlights_content h2{
+    font-size: 2.7em;
+    font-weight: 300;
+    text-align: left;
+    margin: 0 40px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.main_highlights p{
+    font-weight: 300;
+    color: #8d8f92;
+    text-align: left;
+    margin: 0 40px;
+}
+
+/* DOBRA SOCIAL NETWORK*/
+
+.main_social_network{
+    max-width: 1300px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_social_network .main_social_network_header{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.main_social_network .main_social_network_header{
+    font-size: 2.2em;
+    margin-bottom: 60px;
+    font-weight: 400;
+}
+
+.main_social_network .main_social_network_feed{
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+#main_social_network_feed_one_img{
+    background-image: url("https://www.jovenssarados.com/wp-content/uploads/sb-instagram-feed-images/2224135543322410988_2102769949low.jpg");
+}
+
+.main_social_network .main_social_network_btn_mais_fotos{
+    flex-basis: 50%;
+    justify-content: flex-end;
+    background-color: #000000;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main_social_network .main_social_network_btn_instagram{
+    flex-basis: 50%;
+    background-color: #408bd1;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* DOBRA DE CONTATO */
+
+.main_contact{
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.main_contact > header{
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.main_contact .main_contact_form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_contact .main_contact_form input{
+    padding: 10px 10px 10px 10px;
+    color: #7b7b81;
+    font-size: 0.9em;
+    border: 1px solid rgb(18, 127, 108);
+    margin: 0 5px 10px 5px;
+}
+
+.main_contact .main_contact_form .main_contact_form_nome{
+    flex-basis: calc(50% - 10px);
+}
+
+.main_contact .main_contact_form input[type=email]{
+    flex-basis: calc(50% - 10px);
+}
+
+.main_contact .main_contact_form .main_contact_form_input{
+    flex-basis: 100%;
+}
+
+.main_contact .main_contact_form textarea{
+    flex-basis: 100%;
+    padding: 10px 10px 25px 10px;
+    margin: 0 5px 10px 5px;
+    color: #7b7b81;
+    font-size: 0.9em;
+    border: 1px solid rgb(18, 127, 108);
+    margin-bottom: 10px;
+}
+
+.main_contact .main_contact_form .main_contact_form_btn{
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.main_footer{
+    background-image: url("https://www.jovenssarados.com/wp-content/uploads/2015/06/home_media_pattern1.jpg");
+    background-repeat: repeat;
+    background-position: center center;
+}
+
+.main_footer p{
+    color: #8d8f92;
+    text-align: center;
+}
+
+.main_footer .main_footer_js{
+    padding-top: 30px;
+}
+
+.main_footer .main_footer_contact{
+    padding-bottom: 30px;
+}
